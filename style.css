@@ -92,6 +92,17 @@ button:disabled {
 .note h3 {
   margin-top: 0;
 }
+.delete-btn {
+    background: #b42318;
+    margin-left: 0;
+}
+.delete-btn:hover:not(:disabled) {
+    background: #8f1c13;
+}
+#title-input:focus, #body-input:focus {
+    outline: 2px solid #2457c5;
+    outline-offset: 2px;
+}
 
 @media (max-width: 600px) {
   body {
